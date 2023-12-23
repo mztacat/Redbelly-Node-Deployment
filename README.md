@@ -142,6 +142,11 @@ rpcPoolConfig:
 #### Ctrl + X and Y then [ENTER] to exit editor 
 
 
+# Download Node resources [HERE](https://redbelly.atlassian.net/servicedesk/customer/portal/13/article/1960869898)
+#### Move to VPS root directory using the SFTP Method 
+![image](https://github.com/mztacat/Redbelly-Node-Deployment/assets/31314340/d7a25bd4-8e06-46b4-82d0-fb3e5f452640)
+
+
 # Node Initialization
 
 To initialize your Redbelly Node and create an `observe.sh` script, follow these steps:
@@ -235,3 +240,34 @@ chmod +x observe.sh
 chmod +x start-rbn.sh
 ./start-rbn.sh
 ```
+
+# Check LOGS
+
+```
+tail -f $HOME/logs/rbbcLogs
+```
+
+![image](https://github.com/mztacat/Redbelly-Node-Deployment/assets/31314340/f6a90ef1-5487-40ed-8a14-adff8f2047de)
+
+
+# Request FAUCET form Discord 
+![image](https://github.com/mztacat/Redbelly-Node-Deployment/assets/31314340/c3630ccb-7c3b-4f12-8b69-570dd213cbd4)
+
+- Use the signing addres for faucet
+
+  
+#  Add Redbelly Network to Metamask
+![image](https://github.com/mztacat/Redbelly-Node-Deployment/assets/31314340/605ce94f-6bd2-4941-80e8-da2afe6c1a9c)
+
+![image](https://github.com/mztacat/Redbelly-Node-Deployment/assets/31314340/048c2361-aa75-43f1-9a02-0b890d6e1f6b)
+
+ Enter the following network details:
+
+   - **Network name:** Redbelly Network
+   - **New RPC URL:** (e.g., https://myredbellynode.com:8545)
+     - This is https://<FQDN without hostname and trailing '.'> followed by ':' and the RPC Port used while starting the Redbelly blockchain node.
+   - **Chain ID:** 152
+   - **Currency symbol:** RBNT
+   - **Block explorer URL:** https://explorer.devnet.redbelly.network/
+
+
