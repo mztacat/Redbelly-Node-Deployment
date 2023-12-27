@@ -107,7 +107,8 @@ nano config.yaml
 
 ### Paste this
 
-``` ip: <ENTER FULLY QUALIFIED DOMAIN NAME (FQDN) HERE>
+```
+ip: <ENTER FULLY QUALIFIED DOMAIN NAME (FQDN) HERE>
 id: <ENTER THE ID PROVIDED HERE>
 genesisContracts:
   bootstrapContractsRegistryAddress: 0xDAFEA492D9c6733ae3d56b7Ed1ADB60692c98Bc5
